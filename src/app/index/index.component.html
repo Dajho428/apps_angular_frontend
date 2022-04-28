@@ -1,0 +1,10 @@
+<app-menu></app-menu>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1 *ngIf="!nombreUsuario" class="display-4">Bienvenido!</h1>
+    <h1 *ngIf="nombreUsuario" class="display-4">Bienvenido, {{nombreUsuario}}</h1>
+    <p class="lead">Esta es una aplicacion Sencilla implementando JWT.</p>
+    <hr class="my-4">
+  </div>
+</div>
